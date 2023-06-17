@@ -44,11 +44,11 @@ function MyNavigationLinks() {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Nav.Link as={Link} to={"/home"}>
-                 Home 
+                    Home
                   </Nav.Link>
                 </li>
                 <li className="nav-item">
-                <Nav.Link as={Link} to={"/ws"}>
+                  <Nav.Link as={Link} to={"/ws"}>
                     Webseries
                   </Nav.Link>
                 </li>
@@ -58,21 +58,21 @@ function MyNavigationLinks() {
                   </Nav.Link>
                 </li>
                 <li className="nav-item">
-                <Nav.Link as={Link} to={"/ws2"}>
+                  <Nav.Link as={Link} to={"/ws2"}>
                     Popular
                   </Nav.Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                <Nav.Link as={Link} to={"/signup"}>
-                  LogOut
+                  <Nav.Link as={Link} to={"/about"}>
+                    About
                   </Nav.Link>
                 </li>
-               
+
+                <li className="nav-item">
+                  <Nav.Link as={Link} to={"/signup"}>
+                    LogOut
+                  </Nav.Link>
+                </li>
               </ul>
             </div>
           </div>
