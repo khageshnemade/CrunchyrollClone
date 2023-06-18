@@ -67,6 +67,17 @@ function MyNavigationLinks() {
                     About
                   </Nav.Link>
                 </li>
+                <li className="nav-item">
+                  <Nav.Link as={Link} to={"/fb"}>
+                    Feedback
+                  </Nav.Link>
+                </li>
+
+                <li className="nav-item">
+                  <Nav.Link as={Link} to={"/qu"}>
+                    Show Queries
+                  </Nav.Link>
+                </li>
 
                 <li className="nav-item">
                   <Nav.Link as={Link} to={"/signup"}>
